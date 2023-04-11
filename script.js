@@ -3,6 +3,10 @@ const miFuncion = async()=> {
     const response = await fetch("https://raw.githubusercontent.com/JonatanOrdonez/fetch-requests/main/tienda.json")
     const data = await response.json();
 
+    for(let tienda for data) {
+        console.log(tienda);
+    }
+
     const jsonString = JSON.stringify(data);
     const jasonJSON = JSON.parse(jsonString);
 
@@ -16,3 +20,4 @@ const miFuncion = async()=> {
 
 }
 miFuncion();
+for (let )
